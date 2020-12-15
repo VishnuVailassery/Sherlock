@@ -25,3 +25,12 @@ for i in range(x):
 
 
 print("cost is",cost)
+
+for i in range(x):
+    fd=n//(10**(x-1))
+
+    n=((n*10)+fd)-(fd*(10**(x)))
+    print(n)
+
+    if prime(n):
+        cost=cost+n
